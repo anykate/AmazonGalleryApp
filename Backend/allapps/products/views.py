@@ -2,5 +2,5 @@ from django.views.generic import TemplateView
 
 
 # Create your views here.
-class ProductsView(TemplateView):
+class ProductList(TemplateView):
     template_name = 'products/index.html'
